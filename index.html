@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <link rel="shortcut icon" href="images/9592924.png" type="image/x-icon">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+        <!-- fontawesome-->
+        <link rel="stylesheet" href="css/all.min.css">
+
+        <!-- bootstrap css-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- style main css -->
+        <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+
+
+    <section>
+        <div id="quotes" class="d-flex m-auto">
+
+            <div class="container">
+
+                <div class="caption">
+                    <h1>Quote of the Day</h1>
+                    <p>Press the button below to recieve a random quote!</p>
+                    <button onclick="random() ; styleText()" class="btn quoteBtn ">
+                    Click
+                    </button>
+                    <div class="text" id="textBox">
+                        <div>
+                            <p id="quote" class="quote"></p>
+                            <p id="userNames" class="quote"></p>
+                            <div class="icons d-flex ps-3">
+                                <span class="mx-3 volum"><i class="fa-solid fa-volume-high"></i></span>
+                                <span class="copy"><i class="fa-solid fa-copy"></i></span>
+                                <span class="mx-3"><i class="fa-brands fa-twitter"></i></span>
+                                <span class=""><i class="fa-brands fa-linkedin-in"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
